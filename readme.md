@@ -1,64 +1,116 @@
-# Machine Learning Lab 01 - Olist E-Commerce Dataset
+# MachineLearning2026
 
-## Overview
+## Machine Learning Laboratory
 
-This project contains the implementation of Lab 01 for the Machine Learning course. The objective of this lab is to understand the Olist Brazilian E-Commerce dataset through exploratory data analysis (EDA), dataset profiling, and basic business insights.
+Student: Atharv Garg  
+Enrollment No.: DE24729  
+Semester: 5  
+Branch: Computer Science and Business Systems (CSBS)  
+Faculty: Mr. Sharad Laad  
+Institute: Institute of Engineering and Technology (IET), DAVV
 
 ---
 
-## Project Structure
+# Repository Structure
 
 ```
 MachineLearning2026/
 │
 ├── data/
-│   └── raw/
-├── notebooks/
-│   └── Lab01_Olist_Dataset_Introduction.ipynb
-├── reports/
-│   ├── lab01_dataset_summary.csv
-│   └── lab01_data_dictionary.md
+│   ├── raw/
+│   └── processed/
+│
 ├── figures/
-│   ├── lab01_order_status_distribution.png
-│   ├── lab01_review_score_distribution.png
-│   ├── lab01_payment_type_distribution.png
-│   └── lab01_top_customer_states.png
-├── models/
+│
+├── reports/
+│
+├── Notebooks/
+│   ├── Lab01_Olist_Dataset_Introduction.ipynb
+│   └── Lab02_ABT_Creation.ipynb
+│
 ├── src/
+│
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## Objectives
+# Lab 1 – Understanding the Olist Dataset
 
-- Understand the structure of the Olist dataset.
-- Perform exploratory data analysis.
-- Inspect missing values and duplicate records.
-- Generate dataset summaries.
-- Visualize important business insights.
-- Identify potential Machine Learning problems.
+Objectives
 
----
+- Explore the Olist E-commerce dataset
+- Understand table relationships
+- Perform exploratory data analysis
+- Analyze missing values and duplicates
+- Generate visualizations
+- Identify machine learning problems
 
-## Dataset
+Deliverables
 
-The dataset consists of multiple relational tables, including:
-
-- Customers
-- Orders
-- Order Items
-- Products
-- Sellers
-- Payments
-- Reviews
-- Geolocation
-- Product Category Translation
+- Dataset summary
+- Data dictionary
+- ER Diagram
+- README
+- Figures
+- GitHub Repository
 
 ---
 
-## Tools Used
+# Lab 2 – Creating an Analytical Base Table (ABT)
+
+Objectives
+
+- Load required datasets
+- Perform feature engineering
+- Aggregate payment information
+- Aggregate order item information
+- Aggregate review information
+- Merge all tables into a single ABT
+- Save processed dataset
+- Generate summary report
+- Create visualizations
+
+Features Created
+
+- Purchase Year
+- Purchase Month
+- Purchase Day
+- Purchase Day of Week
+- Delivery Days
+- Delivery Delay
+- Late Delivery Flag
+- Total Payment
+- Payment Type
+- Maximum Installments
+- Total Price
+- Total Freight
+- Total Items
+- Unique Products
+- Unique Sellers
+- Average Review Score
+- Review Count
+- Target Variable
+
+Generated Files
+
+```
+data/processed/olist_orders_abt.csv
+
+reports/lab02_abt_summary.csv
+
+figures/
+```
+
+- Delivery Days Distribution
+- Payment Type Distribution
+- Review Score Distribution
+
+---
+
+## Technologies Used
 
 - Python
 - Pandas
@@ -67,22 +119,11 @@ The dataset consists of multiple relational tables, including:
 - Seaborn
 - Jupyter Notebook
 - VS Code
+- Git
+- GitHub
 
 ---
 
-## Outputs Generated
+Author
 
-- Dataset Summary Report
-- Data Dictionary
-- Order Status Distribution
-- Review Score Distribution
-- Payment Type Distribution
-- Top Customer States Chart
-
----
-
-## Author
-
-Atharv Garg  
-B.Tech Computer Science and Business Systems (CSBS)  
-Institute of Engineering and Technology (IET), DAVV
+Atharv Garg
